@@ -1,4 +1,4 @@
-import ProfileTwo from "/public/ProfileTwo.jpg";
+import ProfileTwo from "/public/profileTwo.jpg";
 import Image from "next/image";
 
 const SectionAbout = () => {
