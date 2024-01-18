@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import ProfileImg from "/public/profile.jpg";
+import ProfileImg from "/public/profile.jpeg";
 
 const SectionWelcome = () => {
   return (
