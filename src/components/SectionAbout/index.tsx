@@ -18,7 +18,7 @@ const SectionAbout = () => {
         <div id="aboutTextDiv">
           <h2>Algumas curiosidades sobre mim</h2>
           <p className="aboutP" id="primeiroAboutP">
-            Sou autoproclamado full-stack designer 'especializado' em React.js &
+            Sou autoproclamado full-stack designer especializado em React.js &
             Node.js (com muito a aprender ainda). Sou um entusiasta em trazer
             aspectos técnicos e digitais a vida. User experience, pixel
             designer, e clean code, legível, códigos altamente performáveis são
