@@ -22,7 +22,7 @@ const SectionWelcome = () => {
           <p>Disponível para novos projetos</p>
         </div>
         <div id="welcomeTextLinks">
-          <Link href="https://github.com/MUR1L0K" target="_blank">
+          <Link href="https://github.com/muriloklein" target="_blank">
             <i className="bi-github icons"></i>
           </Link>
           <Link

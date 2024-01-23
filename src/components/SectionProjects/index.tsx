@@ -5,7 +5,7 @@ const SectionProject = () => {
   return (
     <section id="projectsSection">
       <h3 className="SectionsTitle">Projetos</h3>
-      <p id="projectsSectionText">Alguns dos projetos que eu construi:</p>
+      <p id="projectsSectionText">Alguns dos projetos que eu desenvolvi:</p>
       <div id="projectsList">
         <ProjectContainer />
         <Link href="projectsPage.html" target="_blank">

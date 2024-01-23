@@ -74,9 +74,9 @@ const Header = () => {
               <div className="ball"></div>
             </label>
           </div>
-          <Link href="files/CV.pdf" download>
+          <a href="files/CV.pdf" download>
             <button id="downloadButton">Baixar CV</button>
-          </Link>
+          </a>
         </div>
         <div id="mobileMenuButton" className={isMobileScreen ? "" : "closed"}>
           <button id="menuButton" onClick={toggleMobileMenu}>
@@ -110,9 +110,9 @@ const Header = () => {
             <div className="ball"></div>
           </label>
         </div>
-        <Link href="files/CV.pdf" download>
+        <a href="files/CV.pdf" download>
           <button id="downloadButton">Baixar CV</button>
-        </Link>
+        </a>
       </div>
     </header>
   );

@@ -1,25 +1,27 @@
 import Link from "next/link";
 import Image from "next/image";
+import GestorImg from "/public/gestorDeEstoqueImg.png";
 
 const projectsList = [
   {
-    name: "aaa",
-    description: "aaa",
-    img: "aaa",
-    techs: ["aaa", "bbb"],
-    link: "aaa",
+    name: "Gestor de Estoque",
+    description:
+      "Uma aplicação web desenvolvida com HTML, Sass, JavaSript, React, React Router que feita para ajudar no controle de estoque de lojas de varejo, ou outros comércios, com interface bem simples e intuitiva de fácil manejo e entendimento.",
+    img: GestorImg,
+    techs: ["HTML", "Sass", "JavaScript", "React", "ReactRouter"],
+    link: "https://stock-manager-gray.vercel.app/",
   },
   {
     name: "ccc",
     description: "ccc",
-    img: "ccc",
+    img: GestorImg,
     techs: ["ccc", "bbb"],
     link: "ccc",
   },
   {
     name: "eee",
     description: "eee",
-    img: "eee",
+    img: GestorImg,
     techs: ["eee", "bbb"],
     link: "eee",
   },
@@ -49,7 +51,7 @@ const ProjectContainer = () => {
                 <span key={tech}>{tech}</span>
               ))}
             </p>
-            <Link href={project.link}>
+            <Link href={project.link} target="_blank">
               <i className="bi-box-arrow-up-right icons"></i>
             </Link>
           </div>

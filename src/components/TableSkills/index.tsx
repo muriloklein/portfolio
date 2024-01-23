@@ -18,57 +18,52 @@ const techList = [
   {
     name: "HTML",
     img: IconHTML,
-    link: "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
+    link: "https://drive.google.com/file/d/1PDZjFtse_GLoHvqu_0hkMdxt9U4YORVV/view",
   },
   {
     name: "CSS",
     img: IconCSS,
-    link: "https://developer.mozilla.org/pt-BR/docs/Web/CSS",
+    link: "https://drive.google.com/file/d/1S3aELIMfWmOTXDBoTpToYPRjfw-YDvqO/view",
   },
   {
     name: "JS",
     img: IconJS,
-    link: "https://developer.mozilla.org/pt-BR/docs/Web/Javascript",
+    link: "https://drive.google.com/file/d/1FPwb8eRO7feOPJOTNPzT6JbM7ENK4z4y/view",
   },
   {
     name: "TS",
     img: IconTS,
-    link: "https://www.typescriptlang.org/docs/",
+    link: "https://drive.google.com/file/d/1C9aqk-c4EuokKclceaLmMsN2yEH0ZH83/view",
   },
   {
     name: "React",
     img: IconReact,
-    link: "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started",
+    link: "https://drive.google.com/file/d/1t4NMVWct5TXDXItHTk6V6RC1aF2Gg6xv/view",
   },
   {
     name: "Sass",
     img: IconSass,
-    link: "https://sass-lang.com/",
+    link: "https://drive.google.com/file/d/15Tg3jk2yL6E3bQ_9p11oyJoOKi_4tMUc/view",
   },
   {
     name: "Bootstrap",
     img: IconBoot,
-    link: "https://getbootstrap.com/",
+    link: "https://drive.google.com/file/d/1VP0P3b3H3DnLUPMwdNPKEdstw1LJQL4E/view",
   },
   {
     name: "Next.Js",
     img: IconNext,
-    link: "https://nextjs.org/",
+    link: "https://drive.google.com/file/d/1lqO8teBw8apZtplV0sv8KD40UPy4gAy0/view",
   },
   {
     name: "Node.Js",
     img: IconNode,
-    link: "https://nodejs.org/en",
-  },
-  {
-    name: "SQL",
-    img: IconSql,
-    link: "https://pt.wikipedia.org/wiki/SQL",
+    link: "https://drive.google.com/file/d/1rAkSR2BDQlKG4WAVjBcRL_U6oMXk_ESk/view",
   },
   {
     name: "Git",
     img: IconGit,
-    link: "https://git-scm.com/",
+    link: "https://drive.google.com/file/d/1UuJG7IBRUlJyTRIt8S-jbnaMAuZwJ6HS/view",
   },
 ];
 
