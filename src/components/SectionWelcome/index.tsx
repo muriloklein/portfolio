@@ -15,7 +15,7 @@ const SectionWelcome = () => {
         </p>
         <div id="welcomeTextLocationText">
           <i className="bi-geo-alt-fill icons"></i>
-          <p>Xv de Novembro / Brasil</p>
+          <p>Passo Fundo / Brasil</p>
         </div>
         <div id="welcomeTextOnlineText">
           <div></div>
