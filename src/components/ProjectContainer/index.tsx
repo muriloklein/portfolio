@@ -1,22 +1,24 @@
 import Link from "next/link";
 import Image from "next/image";
 import GestorImg from "/public/gestorDeEstoqueImg.png";
+import TarefasImg from "/public/listaDeTarefasImg.png";
 
 const projectsList = [
   {
     name: "Gestor de Estoque",
     description:
-      "Uma aplicação web desenvolvida com HTML, Sass, JavaSript, React, React Router que feita para ajudar no controle de estoque de lojas de varejo, ou outros comércios, com interface bem simples e intuitiva de fácil manejo e entendimento.",
+      "Uma aplicação web desenvolvida com HTML, Sass, JavaSript, React, React Router que feita para ajudar no controle de estoque de lojas de varejo, ou outros comércios, com interface bem simples e intuitiva de fácil manejo e entendimento, com armazenamento de dados feito em Local Storage.",
     img: GestorImg,
     techs: ["HTML", "Sass", "JavaScript", "React", "ReactRouter"],
     link: "https://stock-manager-gray.vercel.app/",
   },
   {
-    name: "ccc",
-    description: "ccc",
-    img: GestorImg,
-    techs: ["ccc", "bbb"],
-    link: "ccc",
+    name: "Lista de Tarefas",
+    description:
+      "Um projeto de uma lista de tarefas semanal desenvolvido com HTML, CSS, TypeScript, React e Next.js, feito para o usuário anotar suas atividades semanais de forma simples e intuitiva com armazenamento de dados feito em Local Storage.",
+    img: TarefasImg,
+    techs: ["HTML", "CSS", "TypeScript", "React", "Next.js"],
+    link: "https://to-do-list-ochre-kappa-53.vercel.app/",
   },
   {
     name: "eee",
