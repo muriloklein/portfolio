@@ -1,0 +1,113 @@
+#mainHeader 
+  position: fixed
+  width: 100%
+  transition: border 0.3s ease
+  z-index: 1
+  max-height: 6rem
+  background-color: var(--colorOne)
+
+  &.scroll 
+    border-bottom: 1px solid var(--colorThree)
+
+#mainNav 
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: space-between
+  padding: 2rem 2.5rem 1.5rem
+
+#mainNavHomeIcon 
+  font-size: 2rem
+  transition: text-shadow 0.3s ease
+
+  &:hover
+    text-shadow: 0 0 10px var(--linkTextShadow)
+
+#navLinksDiv 
+  display: flex
+  gap: 2.2rem
+
+.menuLinks 
+  text-decoration: none
+  color: var(--colorThree)
+  transition: text-shadow 0.3s ease
+
+  &:hover 
+    text-shadow: 0 0 10px var(--linkTextShadow)
+
+.checkbox 
+  position: absolute
+
+.label 
+  background-color: var(--letterColorThree)
+  display: flex
+  align-items: center
+  justify-content: space-between
+  cursor: pointer
+  padding: 0.2rem
+  position: relative
+  border-radius: 3.13rem
+  height: 1.35rem
+  width: 3.13rem
+  border: 1px solid var(--letterColorOne)
+  transform: scale(1.5)
+
+.ball 
+  position: absolute
+  background-color: var(--letterColorOne)
+  border-radius: 50%
+  top: 0.094rem
+  left: 0.094rem
+  height: 1.063rem
+  width: 1.063rem
+  transform: translateX(1px)
+  transition: transform 0.1s linear
+
+
+.checkbox:checked + .label .ball 
+  transform: translate(1.719rem)
+
+.bi-moon,
+.bi-sun 
+  color: var(--letterColorOne)
+  font-size: 0.9rem
+
+#downloadButton 
+  cursor: pointer
+  background-color: var(--colorThree)
+  border-radius: 0.625rem
+  color: var(--letterColorTwo)
+  padding: 0.4rem 1rem
+  font-weight: bold
+  border: none
+  margin-top: -1rem
+  transition: 0.3s
+
+  &:hover 
+    background-color: var(--downloadBackGround)
+
+#mobileMenuButton 
+  display: block
+
+#menuButton 
+  background-color: transparent
+  border: none
+  font-size: 1.25rem
+  cursor: pointer
+
+#mobileMenu 
+  display: flex
+  flex-direction: column
+  background-color: var(--colorOne)
+  gap: 1.4rem
+  align-items: center
+  border-bottom: 1px solid var(--letterColorOne)
+  border-left: 1px solid var(--letterColorOne)
+  border-right: 1px solid var(--letterColorOne)
+  width: 12.5rem
+  float: right
+  margin-top: -0.56rem
+  padding: 1rem
+
+.closed 
+  display: none !important

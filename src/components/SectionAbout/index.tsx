@@ -18,20 +18,19 @@ const SectionAbout = () => {
         <div id="aboutTextDiv">
           <h2>Algumas curiosidades sobre mim</h2>
           <p className="aboutP" id="primeiroAboutP">
-            Sou autoproclamado full-stack designer especializado em React.js &
-            Node.js (com muito a aprender ainda). Sou um entusiasta em trazer
-            aspectos técnicos e digitais a vida. User experience, pixel
-            designer, e clean code, legível, códigos altamente performáveis são
-            o que importa.
+            Sou programador full-stack especializado em React.js & Node.js (com
+            muito a aprender ainda). Entusiasta em trazer aspectos técnicos e
+            digitais a vida. User experience, pixel designer, e clean code,
+            legível, códigos altamente performáveis são o que importa.
           </p>
           <p className="aboutP" id="segAboutP">
             Eu comecei minha jornada como desenvolvedor web em 2022, desde
             então, continuei a me aperfeiçoar e crescer como um desenvolvedor,
             aceitando desafios e aprendendo as últimas tecnologias ao longo do
-            caminho. Agora, após 1 ano desde que comecei minha carreira como
-            desenvolvedor, estou em busca do meu primeiro emprego na área,
+            caminho. Agora, após mais de 1 ano desde que comecei minha carreira
+            como desenvolvedor, estou em busca do meu primeiro emprego na área,
             crendo já ter conhecimentos necessários em React.js, TypeScript,
-            Next.js e mais.
+            Next.js, Node.js e mais.
           </p>
           <p className="aboutP" id="terAboutP">
             Sou bem criativo e gosto de trabalhar em produtos end-to-end, gosto
@@ -41,16 +40,13 @@ const SectionAbout = () => {
           <p className="aboutP" id="quarAboutP">
             Desde 2022 venho fazendo cursos e me aperfeiçoando na área,
             aprendendo sobre as últimas tecnologias e me capacitando para
-            conseguir o primeiro emprego, creio que já tenho capacidade para me
-            candidatar a vagas de júnior.
+            conseguir o primeiro emprego.
           </p>
           <p className="aboutP" id="quinAboutP">
             Mais algumas poucas curiosidades sobre mim:
           </p>
           <ul className="aboutP" id="aboutUl">
-            <li id="liUm">
-              Cursando Bacharelado em Ciências da computação na UPF
-            </li>
+            <li id="liUm">Bacharel em Ciências da computação na UPF (3/8)</li>
             <li id="liDois">Livre para empregos Full time</li>
             <li id="liTres">Aluno Focado</li>
             <li id="liQuatro">Desenvolvedor júnior</li>

@@ -3,7 +3,7 @@ import Link from "next/link";
 const SectionContact = () => {
   return (
     <section id="contactSection">
-      <h3 className="SectionsTitle">Entrar em contato</h3>
+      <h3 className="SectionsTitles">Entrar em contato</h3>
       <p className="contactSmallText" id="contactSmallText01">
         Você pode me chamar em:
       </p>

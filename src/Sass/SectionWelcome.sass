@@ -1,0 +1,73 @@
+@keyframes blink 
+  0% 
+    opacity: 1
+  
+  50% 
+    opacity: 0
+  
+  100% 
+    opacity: 1
+
+#welcomeSection 
+  height: 38rem
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: space-evenly
+  background-color: var(--colorOne)
+  color: var(--letterColorOne)
+  border-bottom: 1px solid var(--colorThree)
+  padding-top: 9.375rem
+
+#welcomeText 
+  width: 55%
+
+#welcomeTextTitle 
+  font-size: 2.5rem
+  padding-bottom: .313rem
+
+#welcomeTextParagraph 
+  line-height: 1.25rem
+
+#profileImg 
+  width: 17.5rem
+  border: 10px solid var(--backGroundOne)
+  box-shadow: 20px 20px 0px 0px var(--backGroundFour)
+  margin-bottom: 2.5rem
+
+#welcomeTextLocationText 
+  display: flex
+  gap: .625rem
+  align-items: center
+  padding-top: 1.875rem
+
+  p
+    margin-top: 1rem
+
+#welcomeTextOnlineText 
+  display: flex
+  gap: .625rem
+  align-items: center
+  margin-top: -1rem
+
+  p 
+    margin-top: 1rem
+
+  div
+    background-color: rgb(6, 163, 6)
+    border-radius: 50%
+    width: .938rem
+    height: .938rem
+    animation: blink 1s infinite
+
+#welcomeTextLinks 
+  padding-top: 1.875rem
+
+  i
+    font-size: 2rem
+    padding: .3rem .5rem
+    margin-right: 1.5rem
+
+    &:hover 
+      background-color: var(--socialLinksBackGround)
+      border-radius: .313rem

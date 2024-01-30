@@ -1,0 +1,94 @@
+#projectsSection 
+  background-color: var(--colorTwo)
+  padding-top: 3.125rem
+  text-align: center
+  color: var(--letterColorOne)
+  padding-bottom: 3.125rem
+  border-bottom: 1px solid var(--colorThree)
+
+#projectsSectionText 
+  padding: 1.25rem 0
+  font-size: 1.25rem
+
+#projectsList 
+  display: flex
+  align-items: center
+  justify-content: space-around
+  flex-wrap: wrap
+
+.projects 
+  display: flex
+  flex-direction: column
+  align-items: center
+  background-color: var(--colorOne)
+  width: 45%
+  height: 32rem
+  margin: 1rem
+  border-radius: 1.25rem
+  box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.199)
+  
+.imgPart 
+  display: grid
+  align-content: center
+  background-color: var(--backGroundFive)
+  padding: 1rem
+  border-radius: 1.25rem 0 0 1.25rem
+
+.projectImg 
+  width: 100%
+  border-radius: 1.25rem
+  transition: 0.5s
+  cursor: pointer
+
+  &:hover 
+    scale: 1.05
+
+  &:not(:hover) 
+    opacity: 50%
+
+.textPart 
+  text-align: center
+  padding: .5rem
+
+  h2 
+    padding: 0px 1rem
+    font-size: 1.2rem
+
+  p 
+    padding: .5rem .7rem .15rem
+    line-height: 1.563rem
+    font-size: .7rem
+
+  span 
+    background-color: var(--colorFive)
+    padding: 0.325rem 0.5rem
+    margin-right: .85rem
+    border-radius: 1.25rem
+
+.spanPart
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  row-gap: 1rem
+
+.linkContainer 
+  margin-top: 1.875rem
+  padding: 0 2.125rem
+
+.bi-box-arrow-up-right
+  display: block
+  text-align: center
+  transition: 0.3s
+
+  &:hover 
+    transform: scale(1.2)
+
+.bi-plus-circle 
+  display: block
+  margin: 1.25rem
+  font-size: 1.875rem
+  border-radius: 100%
+  transition: 0.5s
+
+  &:hover 
+    scale: 1.2

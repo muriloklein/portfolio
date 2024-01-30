@@ -3,6 +3,8 @@ import Image from "next/image";
 import GestorImg from "/public/gestorDeEstoqueImg.png";
 import TarefasImg from "/public/listaDeTarefasImg.png";
 import ClimaImg from "/public/siteDoClimaImg.png";
+import CalculadoraImg from "/public/calculadoraImg.png";
+import VelhaImg from "/public/jogoDaVelhaImg.png";
 
 const projectsList = [
   {
@@ -10,13 +12,21 @@ const projectsList = [
     description:
       "Uma aplicação web SPA (Single Page Application) desenvolvida com HTML, Sass, Bootstrap,  JavaSript, React, React Router que feita para ajudar no controle de estoque de lojas de varejo, ou outros comércios, com interface bem simples e intuitiva de fácil manejo e entendimento, com armazenamento de dados feito em Local Storage.",
     img: GestorImg,
-    techs: ["HTML", "Sass", "JavaScript", "React", "ReactRouter", "Bootstrap"],
+    techs: ["HTML", "Sass", "JavaScript", "React", "Bootstrap"],
     link: "https://stock-manager-gray.vercel.app/",
+  },
+  {
+    name: "Loja Apple",
+    description:
+      "Um projeto SPA (Single Page Application) desenvolvido de forma simples com HTML, CSS e JavaScript do famoso jogo da velha para jogar e se divertir.",
+    img: VelhaImg,
+    techs: ["HTML", "CSS", "JavaScript"],
+    link: "https://tic-tac-toe-gules-three.vercel.app/",
   },
   {
     name: "Lista de Tarefas",
     description:
-      "Um projeto de uma lista de tarefas semanal SPA (Single Page Application) desenvolvido com HTML, CSS, Bootstrap, TypeScript, React e Next.js, feito para o usuário anotar suas atividades semanais de forma simples e intuitiva com armazenamento de dados feito em Local Storage.",
+      "Um projeto de uma lista de tarefas semanal SPA (Single Page Application) desenvolvido com HTML, CSS, Bootstrap, TypeScript, React e Next.js, feito para o usuário anotar suas atividades semanais de forma simples, intuitiva e moderna com armazenamento de dados feito através do Local Storage do navegador.",
     img: TarefasImg,
     techs: ["HTML", "CSS", "TypeScript", "React", "Next.js", "Bootstrap"],
     link: "https://to-do-list-ochre-kappa-53.vercel.app/",
@@ -28,6 +38,22 @@ const projectsList = [
     img: ClimaImg,
     techs: ["HTML", "Sass", "TypeScript", "React", "Next.js", "Bootstrap"],
     link: "https://weather-forecast-rose-three.vercel.app/",
+  },
+  {
+    name: "Calculadora",
+    description:
+      "Um projeto SPA (Single Page Application) desenvolvido com HTML, CSS e JavaScript de uma calculadora simples para realisar calculos matemáticos de forma simples e intuitiva com tratamento de erros e outras funcionalidades mais.",
+    img: CalculadoraImg,
+    techs: ["HTML", "CSS", "JavaScript"],
+    link: "https://calculator-delta-silk.vercel.app/",
+  },
+  {
+    name: "Jogo da Velha",
+    description:
+      "Um projeto SPA (Single Page Application) desenvolvido de forma simples com HTML, CSS e JavaScript do famoso jogo da velha para jogar e se divertir.",
+    img: VelhaImg,
+    techs: ["HTML", "CSS", "JavaScript"],
+    link: "https://tic-tac-toe-gules-three.vercel.app/",
   },
 ];
 
@@ -41,8 +67,8 @@ const ProjectContainer = () => {
               <Image
                 src={project.img}
                 alt={project.name}
-                height={100}
-                width={100}
+                height={200}
+                width={200}
                 className="projectImg"
               />
             </Link>

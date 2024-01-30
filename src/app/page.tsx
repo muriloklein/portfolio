@@ -6,6 +6,7 @@ import SectionSkills from "@/components/SectionSkills";
 import SectionProjects from "@/components/SectionProjects";
 import SectionContact from "@/components/SectionContact";
 import Footer from "@/components/Footer";
+import applyTheme from "@/Hooks/toogleTheme";
 
 export default function Home() {
   return (

@@ -1,0 +1,47 @@
+#skillsSection 
+  text-align: center
+  background-color: var(--colorOne)
+  padding-top: 3.125rem
+  color: var(--letterColorOne)
+  padding-bottom: 3.125rem
+  border-bottom: 1px solid var(--colorThree)
+
+  ul
+    list-style: none
+
+#skillsSectionText 
+  padding: 1.25rem 0px
+  font-size: 1.25rem
+
+#sckillsTable 
+  grid-template-columns: repeat(5, 1fr)
+  grid-gap: 0.825rem
+  max-width: 100%
+
+.tableItems 
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+  img 
+    object-fit: contain
+    margin: auto
+    width: 4.625rem
+    height: 5.25rem
+    transition: 0.5s
+    cursor: pointer
+
+    &:hover 
+      scale: 1.1
+
+    &:not(:hover) 
+      opacity: 50%
+
+  a 
+    text-decoration: none
+    color: var(--letterColorOne)
+
+  p 
+    font-size: 1.25rem
+    font-weight: bold

@@ -1,11 +1,22 @@
 "use client";
 
+import applyTheme from "@/Hooks/toogleTheme";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobileScreen, setIsMobileScreen] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleTheme = () => {
+    setDarkMode((prev) => !prev);
+    applyTheme(darkMode);
+  };
+
+  useEffect(() => {
+    applyTheme(!darkMode);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,7 +52,12 @@ const Header = () => {
   };
 
   return (
-    <header id="mainHeader">
+    <header
+      id="mainHeader"
+      onLoadStart={() => {
+        applyTheme(darkMode);
+      }}
+    >
       <nav id="mainNav">
         <div>
           <Link href="#presentationSection">
@@ -67,6 +83,7 @@ const Header = () => {
               name="check"
               className="checkbox"
               id="checkbox"
+              onChange={toggleTheme}
             />
             <label htmlFor="checkbox" className="label">
               <i className="bi-moon icons"></i>
@@ -103,6 +120,7 @@ const Header = () => {
             name="check"
             className="checkbox"
             id="checkboxTwo"
+            onChange={toggleTheme}
           />
           <label htmlFor="checkboxTwo" className="label">
             <i className="bi-moon icons"></i>

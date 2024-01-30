@@ -39,7 +39,7 @@ const SectionWelcome = () => {
           alt="Foto de perfil"
           id="profileImg"
           width={600}
-          height={500}
+          height={350}
         />
       </div>
     </section>
