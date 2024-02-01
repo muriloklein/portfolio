@@ -4,6 +4,8 @@ import applyTheme from "@/Hooks/toogleTheme";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+function download() {}
+
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobileScreen, setIsMobileScreen] = useState(false);
@@ -91,7 +93,7 @@ const Header = () => {
               <div className="ball"></div>
             </label>
           </div>
-          <a href="files/CV.pdf" download>
+          <a href="/CV.pdf" download>
             <button id="downloadButton">Baixar CV</button>
           </a>
         </div>
@@ -128,7 +130,7 @@ const Header = () => {
             <div className="ball"></div>
           </label>
         </div>
-        <a href="files/CV.pdf" download>
+        <a href="/CV.pdf" download>
           <button id="downloadButton">Baixar CV</button>
         </a>
       </div>

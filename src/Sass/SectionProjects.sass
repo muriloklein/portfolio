@@ -7,7 +7,7 @@
   border-bottom: 1px solid var(--colorThree)
 
 #projectsSectionText 
-  padding: 1.25rem 0
+  padding: 1.25rem .5rem
   font-size: 1.25rem
 
 #projectsList 
@@ -22,10 +22,16 @@
   align-items: center
   background-color: var(--colorOne)
   width: 45%
-  height: 32rem
+  min-width: 29.063rem
   margin: 1rem
   border-radius: 1.25rem
   box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.199)
+
+  @media screen and (max-width:994px) 
+    width: 90%  
+  
+  @media screen and (max-width:560px) 
+    min-width: 2rem 
   
 .imgPart 
   display: grid

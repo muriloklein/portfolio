@@ -5,6 +5,7 @@ import TarefasImg from "/public/listaDeTarefasImg.png";
 import ClimaImg from "/public/siteDoClimaImg.png";
 import CalculadoraImg from "/public/calculadoraImg.png";
 import VelhaImg from "/public/jogoDaVelhaImg.png";
+import PortifolioImg from "/public/portifolioImg.png";
 
 const projectsList = [
   {
@@ -16,11 +17,11 @@ const projectsList = [
     link: "https://stock-manager-gray.vercel.app/",
   },
   {
-    name: "Loja Apple",
+    name: "Este Site",
     description:
-      "Um projeto SPA (Single Page Application) desenvolvido de forma simples com HTML, CSS e JavaScript do famoso jogo da velha para jogar e se divertir.",
-    img: VelhaImg,
-    techs: ["HTML", "CSS", "JavaScript"],
+      "Um Site simples SPA (Single Page Application) desenvolvido desenvolvida com HTML, Sass, Bootstrap,  TypeScript, React e Next para mostrar minhas habilidades como desenvolvedor full-stack além de formas de entrar em contato e me encontrar nas redes, com algumas funcionalidades para também demonstrar um pouco do que sei fazer",
+    img: PortifolioImg,
+    techs: ["HTML", "Sass", "TypeScript", "React", "Next.js", "Bootstrap"],
     link: "https://tic-tac-toe-gules-three.vercel.app/",
   },
   {

@@ -9,9 +9,12 @@
     opacity: 1
 
 #welcomeSection 
-  height: 38rem
+  height: fit-content
+  min-height: 38rem
   display: flex
   flex-wrap: wrap
+  column-gap: 2rem
+  padding: 0 2rem
   align-items: center
   justify-content: space-evenly
   background-color: var(--colorOne)
@@ -19,8 +22,14 @@
   border-bottom: 1px solid var(--colorThree)
   padding-top: 9.375rem
 
+  @media screen and (max-width: 756px) 
+    text-align: center
+  
 #welcomeText 
   width: 55%
+
+  @media screen and (max-width: 756px) 
+    width:  80%
 
 #welcomeTextTitle 
   font-size: 2.5rem
@@ -30,10 +39,15 @@
   line-height: 1.25rem
 
 #profileImg 
-  width: 17.5rem
-  border: 10px solid var(--backGroundOne)
-  box-shadow: 20px 20px 0px 0px var(--backGroundFour)
+  height: auto
+  max-width: 17.5rem
+  border: 10px solid var(--colorOne)
+  box-shadow: 20px 20px 0px 0px var(--colorFour)
   margin-bottom: 2.5rem
+  margin-top: 2rem
+
+  @media screen and (max-width:350px) 
+    width: 95%
 
 #welcomeTextLocationText 
   display: flex
