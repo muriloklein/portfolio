@@ -8,10 +8,10 @@ const SectionWelcome = () => {
       <div id="welcomeText">
         <h1 id="welcomeTextTitle">Bem vindo ao meu Portifólio 👋</h1>
         <p id="welcomeTextParagraph">
-          Me chamo Murilo, sou um dev Full-Stack apaixonado por transformar
-          ideias em realidade, combinando habilidades técnicas e criatividade.
-          Estou sempre em busca de novas oportunidades para aperfeiçoar minhas
-          habilidades e trabalhar em projetos desafiadores.
+          Me chamo Murilo, atualmente trabalho como desenvolvedor de sistemas, e
+          gosto muito dessa área full-stack, adoro novos desafios e estou sempre
+          em busca de mais aprendizados procurando me aperfeiçoar e especializar
+          cada vez mais nessa área da programação que eu gosto tanto.
         </p>
         <div id="welcomeTextLocationText">
           <i className="bi-geo-alt-fill icons"></i>
@@ -19,7 +19,7 @@ const SectionWelcome = () => {
         </div>
         <div id="welcomeTextOnlineText">
           <div></div>
-          <p>Disponível para novos projetos</p>
+          <p>Disponível para contato</p>
         </div>
         <div id="welcomeTextLinks">
           <Link href="https://github.com/muriloklein" target="_blank">
