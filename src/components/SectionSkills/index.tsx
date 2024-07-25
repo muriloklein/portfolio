@@ -5,9 +5,10 @@ const SectionSkills = () => {
     <section id="skillsSection">
       <h3 className="SectionsTitles">Habilidades</h3>
       <p id="skillsSectionText">
-        Tecnologias e ferramentas que tenho mais afinidade:
+        Algumas das Tecnologias e ferramentas que tenho afinidade:
       </p>
       <TableSkills />
+      <p id="skillsSectionTextTwo">Na real tem muitas outras.</p>
     </section>
   );
 };

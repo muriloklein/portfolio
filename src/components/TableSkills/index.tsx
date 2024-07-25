@@ -9,7 +9,10 @@ import IconSass from "/public/icon-sass.svg";
 import IconBoot from "/public/icon-bootstrap.png";
 import IconTS from "/public/icon-typescript.png";
 import IconGit from "/public/icon-git.png";
-import IconSql from "/public/icon-sql.png";
+import IconSql from "/public/sql-logo.png";
+import IconDocker from "/public/docker-logo.png";
+import IconPhp from "/public/php-logo.png";
+import IconCodeIgniter from "/public/codeIgniter-logo.png";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -64,6 +67,26 @@ const techList = [
     name: "Git",
     img: IconGit,
     link: "https://drive.google.com/file/d/1UuJG7IBRUlJyTRIt8S-jbnaMAuZwJ6HS/view",
+  },
+  {
+    name: "PHP",
+    img: IconPhp,
+    link: "#",
+  },
+  {
+    name: "CodeIgniter",
+    img: IconCodeIgniter,
+    link: "#",
+  },
+  {
+    name: "Docker",
+    img: IconDocker,
+    link: "#",
+  },
+  {
+    name: "SQL",
+    img: IconSql,
+    link: "https://drive.google.com/file/d/1ZNC1eYXcwJSD0j8d9T16cZq75x_jYuZx/view",
   },
 ];
 
