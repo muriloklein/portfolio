@@ -4,8 +4,6 @@ import applyTheme from "@/Hooks/toogleTheme";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-function download() {}
-
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobileScreen, setIsMobileScreen] = useState(false);
@@ -74,7 +72,7 @@ const Header = () => {
             Habilidades
           </Link>
           <Link href="#projectsSection" className="menuLinks">
-            Projetos
+            Experiência
           </Link>
           <Link href="#contactSection" className="menuLinks">
             Contato
