@@ -6,6 +6,7 @@ import SectionSkills from "@/components/SectionSkills";
 import SectionProjects from "@/components/SectionProjects";
 import SectionContact from "@/components/SectionContact";
 import Footer from "@/components/Footer";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Head>
         <title>Home - Portifólio</title>
       </Head>
+      <GoogleAnalytics></GoogleAnalytics>
       <main>
         <Header />
         <SectionWelcome />
