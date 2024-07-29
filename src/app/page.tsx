@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 import useGoogleAnalytics from "../Hooks/useGoogleAnalytics";
 
 export default function Home() {
-  const trackingId = "UA-XXXXXXXXX-X";
+  const trackingId = "G-M8PE4F2NM6";
 
   useGoogleAnalytics(trackingId);
 
