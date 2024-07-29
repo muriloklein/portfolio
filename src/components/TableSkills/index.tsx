@@ -13,6 +13,7 @@ import IconSql from "/public/sql-logo.png";
 import IconDocker from "/public/docker-logo.png";
 import IconPhp from "/public/php-logo.png";
 import IconCodeIgniter from "/public/codeIgniter-logo.png";
+import IconMongo from "/public/icon-mongo.png";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -87,6 +88,11 @@ const techList = [
     name: "SQL",
     img: IconSql,
     link: "https://drive.google.com/file/d/1ZNC1eYXcwJSD0j8d9T16cZq75x_jYuZx/view",
+  },
+  {
+    name: "MongoDB",
+    img: IconMongo,
+    link: "https://drive.google.com/file/d/1_HQOyFKKCp0PHeYV4lcJRx8satzmRxoG/view",
   },
 ];
 
