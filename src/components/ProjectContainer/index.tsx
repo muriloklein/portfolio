@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import GestorImg from "/public/gestorDeEstoqueImg.png";
+import NotreDameImg from "/public/logo-notre-dame.jpeg";
 import TarefasImg from "/public/listaDeTarefasImg.png";
 import ClimaImg from "/public/siteDoClimaImg.png";
 import CalculadoraImg from "/public/calculadoraImg.png";
@@ -8,6 +9,14 @@ import VelhaImg from "/public/jogoDaVelhaImg.png";
 import PortifolioImg from "/public/portifolioImg.png";
 
 const projectsList = [
+  {
+    name: "Desenvolvedor de Sistemas",
+    description:
+      "Trabalho como desenvolvedor de sistemas júnior na Congregação de Nossa Senhora - Notre Dame, comecei nesse cargo em março de 2024 e desde então tenho aprendido muito e ganho muita experiência no desenvolvimento de aplicações.",
+    img: NotreDameImg,
+    techs: ["HTML", "CSS", "PHP", "CodeIgniter", "Bootstrap", "Docker", "GIT"],
+    link: "https://stock-manager-gray.vercel.app/",
+  },
   {
     name: "Gestor de Estoque",
     description:
@@ -47,14 +56,6 @@ const projectsList = [
     img: CalculadoraImg,
     techs: ["HTML", "CSS", "JavaScript"],
     link: "https://calculator-delta-silk.vercel.app/",
-  },
-  {
-    name: "Jogo da Velha",
-    description:
-      "Um projeto SPA (Single Page Application) desenvolvido de forma simples com HTML, CSS e JavaScript do famoso jogo da velha para jogar e se divertir.",
-    img: VelhaImg,
-    techs: ["HTML", "CSS", "JavaScript"],
-    link: "https://tic-tac-toe-gules-three.vercel.app/",
   },
 ];
 

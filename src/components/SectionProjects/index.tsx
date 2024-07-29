@@ -4,8 +4,10 @@ import ProjectContainer from "../ProjectContainer";
 const SectionProject = () => {
   return (
     <section id="projectsSection">
-      <h3 className="SectionsTitles">Projetos</h3>
-      <p id="projectsSectionText">Alguns dos projetos que eu desenvolvi:</p>
+      <h3 className="SectionsTitles">Experiência</h3>
+      <p id="projectsSectionText">
+        Essa é minha experiência como dev e alguns projetos que realizei:
+      </p>
       <div id="projectsList">
         <ProjectContainer />
       </div>
