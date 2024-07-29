@@ -28,7 +28,7 @@ const projectsList = [
   {
     name: "Este Site",
     description:
-      "Um Site simples SPA (Single Page Application) desenvolvido desenvolvida com HTML, Sass, Bootstrap,  TypeScript, React e Next para mostrar minhas habilidades como desenvolvedor full-stack além de formas de entrar em contato e me encontrar nas redes, com algumas funcionalidades para também demonstrar um pouco do que sei fazer",
+      "Um Site simples SPA (Single Page Application) desenvolvido desenvolvida com HTML, Sass, Bootstrap,  TypeScript, React e Next para mostrar minhas habilidades como desenvolvedor full-stack além de formas de entrar em contato e me encontrar nas redes, com algumas funcionalidades para também demonstrar um pouco do que sei fazer.",
     img: PortifolioImg,
     techs: ["HTML", "Sass", "TypeScript", "React", "Next.js", "Bootstrap"],
     link: "https://tic-tac-toe-gules-three.vercel.app/",
