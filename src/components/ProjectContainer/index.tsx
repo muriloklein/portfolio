@@ -12,7 +12,7 @@ const projectsList = [
   {
     name: "Desenvolvedor de Sistemas",
     description:
-      "Trabalho como desenvolvedor de sistemas júnior na Congregação de Nossa Senhora - Notre Dame, comecei nesse cargo em março de 2024 e desde então tenho aprendido muito e ganho muita experiência no desenvolvimento de aplicações.",
+      "Trabalho como desenvolvedor de sistemas júnior na Congregação de Nossa Senhora - Notre Dame, comecei nesse cargo em março de 2024 e desde então tenho aprendido muito e obtido experiência no desenvolvimento de aplicações.",
     img: NotreDameImg,
     techs: ["HTML", "CSS", "PHP", "CodeIgniter", "Bootstrap", "Docker", "GIT"],
     link: "https://www.linkedin.com/company/congrega%C3%A7%C3%A3o-de-nossa-senhora/posts/?feedView=all",
