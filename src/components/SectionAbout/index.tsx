@@ -29,7 +29,7 @@ const SectionAbout = () => {
             Eu comecei minha jornada como desenvolvedor em 2022, realizando
             cursos e projetos por conta própria e de maneira independente, então
             em 2023 ingressei no curso de ciência da computação na Universidade
-            de Passo Fundo onde estou até hoje atualmente no quarto semestre.
+            de Passo Fundo onde estou até hoje atualmente no quinto semestre.
             Desde o inicio me dedicando muito a aprender para contribuir de
             maneira profissional.
           </p>
@@ -55,8 +55,8 @@ const SectionAbout = () => {
           </p>
           <ul className="aboutP" id="aboutUl">
             <li id="liUm">Tenho certificação de dev full stack</li>
-            <li id="liDois">Me considero um dev júnior</li>
-            <li id="liTres">Participo de camp de programação</li>
+            <li id="liDois">Dev júnior</li>
+            <li id="liTres">Participo de camps. de programação</li>
             <li id="liQuatro">Programming is ma passion</li>
           </ul>
           <p className="aboutP" id="sexAboutP">
