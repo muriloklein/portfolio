@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Portfólio Pessoal
 
-## Getting Started
+Meu portfólio pessoal desenvolvido com Next.js, criado para apresentar minha trajetória como desenvolvedor Full Stack, minhas habilidades técnicas e os principais projetos desenvolvidos ao longo da graduação e da experiência profissional.
 
-First, run the development server:
+## ✨ Sobre o projeto
+
+Este projeto foi criado com o objetivo de reunir, em um único lugar, informações sobre minha formação, tecnologias que utilizo e aplicações desenvolvidas.
+
+O site conta com uma interface moderna, responsiva e organizada, permitindo que recrutadores, empresas e outros desenvolvedores conheçam melhor meu trabalho.
+
+## 🚀 Funcionalidades
+
+- ✅ Apresentação pessoal;
+- ✅ Seção "Sobre mim";
+- ✅ Listagem de habilidades técnicas;
+- ✅ Exibição dos principais projetos;
+- ✅ Área de contato;
+- ✅ Download do currículo;
+- ✅ Integração com Google Analytics;
+- ✅ Interface responsiva.
+
+## 🛠️ Tecnologias utilizadas
+
+- Next.js 14
+- React
+- TypeScript
+- Sass
+- Bootstrap
+- Reactstrap
+- Bootstrap Icons
+- Google Analytics
+
+## 📂 Estrutura do projeto
+
+```bash
+src/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.scss
+│
+├── components/
+│   ├── Header/
+│   ├── SectionWelcome/
+│   ├── SectionAbout/
+│   ├── SectionSkills/
+│   ├── SectionProjects/
+│   ├── SectionContact/
+│   └── Footer/
+│
+├── Hooks/
+│   └── useGoogleAnalytics.ts
+│
+└── public/
+```
+
+## ⚙️ Como executar o projeto
+
+### Clone o repositório
+
+```bash
+git clone https://github.com/muriloklein/portfolio.git
+```
+
+### Acesse a pasta do projeto
+
+```bash
+cd portfolio
+```
+
+### Instale as dependências
+
+```bash
+npm install
+```
+
+### Execute o projeto
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A aplicação estará disponível em:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🎯 Objetivo
 
-## Learn More
+Este portfólio foi desenvolvido para:
 
-To learn more about Next.js, take a look at the following resources:
+- Apresentar minha trajetória profissional e acadêmica;
+- Centralizar meus principais projetos;
+- Demonstrar minhas habilidades técnicas;
+- Compartilhar meu currículo e formas de contato;
+- Fortalecer minha presença profissional no mercado de tecnologia.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Demonstração
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Adicione aqui capturas de tela ou GIFs mostrando o funcionamento da aplicação.
 
-## Deploy on Vercel
+## 🔗 Contato
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- LinkedIn
+- GitHub
+- E-mail
+- Portfólio online
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+Desenvolvido por **Murilo Klein** 🚀
