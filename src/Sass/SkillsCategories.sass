@@ -1,0 +1,111 @@
+#skillsCategoriesWrapper
+  max-width: 68.75rem
+  margin: 0 auto
+  text-align: left
+
+#featuredStack
+  margin-bottom: 2.5rem
+  text-align: center
+
+#featuredStackLabel
+  font-size: 1.1rem
+  font-weight: bold
+  margin-bottom: 1rem
+
+#featuredStackList
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  gap: 1rem
+
+.featuredStackItem
+  display: flex
+  align-items: center
+  gap: 0.5rem
+  background-color: var(--colorFour)
+  padding: 0.6rem 1.1rem
+  border-radius: 2.5rem
+  font-weight: bold
+  transition: 0.3s
+
+  img
+    object-fit: contain
+
+  i
+    font-size: 1.5rem
+
+  &:hover
+    scale: 1.05
+
+#skillsCategoriesGrid
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  gap: 1.25rem
+
+  @media screen and (max-width: 750px)
+    grid-template-columns: 1fr
+
+.skillCategoryCard
+  background-color: var(--colorTwo)
+  border-radius: 1.25rem
+  padding: 1.5rem
+  box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.1)
+
+  h4
+    font-size: 1.2rem
+    margin-bottom: 0.4rem
+
+.skillCategoryDescription
+  font-size: 0.9rem
+  opacity: 0.85
+  margin-bottom: 1rem
+  line-height: 1.4rem
+
+.skillCategoryItems
+  display: flex
+  flex-wrap: wrap
+  gap: 1.1rem
+
+.skillCategoryItem
+  display: flex
+  flex-direction: column
+  align-items: center
+  gap: 0.35rem
+  width: 4.5rem
+  text-align: center
+
+  img
+    object-fit: contain
+
+  i
+    font-size: 1.7rem
+
+  span
+    font-size: 0.8rem
+    font-weight: 600
+
+#integrationsCard
+  margin-top: 1.25rem
+
+#integrationsTags
+  display: flex
+  flex-wrap: wrap
+  gap: 0.6rem
+
+.integrationTag
+  background-color: var(--colorFive)
+  padding: 0.4rem 0.9rem
+  border-radius: 1.25rem
+  font-size: 0.85rem
+  font-weight: 600
+
+#skillsSecondaryNote
+  text-align: center
+  font-size: 0.85rem
+  opacity: 0.75
+  margin-top: 1.75rem
+
+  a
+    color: var(--letterColorOne)
+    font-weight: bold
+    text-decoration: underline
