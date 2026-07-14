@@ -21,19 +21,6 @@ const SectionContact = () => {
             <i className="bi-copy icons" id="emailButton"></i>
           </button>
         </p>
-        <p className="contactText">
-          <i className="bi-telephone icons"></i>
-          <Link
-            href=" https://wa.me/5554991487046"
-            className="contactTextLinks"
-            target="_blank"
-          >
-            +55 (54) 99148-7046
-          </Link>
-          <button className="copyButton">
-            <i className="bi-copy icons" id="phoneButton"></i>
-          </button>
-        </p>
       </div>
       <p className="contactSmallText" id="contactSmallText02">
         Também pode me encotrar nessas plataformas!

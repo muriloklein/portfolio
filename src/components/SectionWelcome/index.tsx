@@ -6,20 +6,22 @@ const SectionWelcome = () => {
   return (
     <section id="welcomeSection">
       <div id="welcomeText">
-        <h1 id="welcomeTextTitle">Bem vindo ao meu Portifólio 👋</h1>
+        <h1 id="welcomeTextTitle">Bem vindo ao meu Portfólio</h1>
         <p id="welcomeTextParagraph">
-          Me chamo Murilo, atualmente trabalho como desenvolvedor de sistemas, e
-          gosto muito dessa área full-stack, adoro novos desafios e estou sempre
-          em busca de mais aprendizados procurando me aperfeiçoar e especializar
-          cada vez mais nessa área da programação que eu gosto tanto.
+          Sou Desenvolvedor de Sistemas II com experiência no desenvolvimento de
+          aplicações corporativas, integrações entre sistemas e modernização de
+          aplicações legadas.
+
+          Atualmente trabalho na Congregação de Nossa Senhora – Notre Dame,
+          desenvolvendo soluções utilizadas por múltiplas unidades da instituição,
+          utilizando tecnologias como Laravel, Vue.js, SQL e Docker.
+
+          Também estou concluindo o Bacharelado em Ciência da Computação pela
+          Universidade de Passo Fundo.
         </p>
         <div id="welcomeTextLocationText">
           <i className="bi-geo-alt-fill icons"></i>
           <p>Passo Fundo / Brasil</p>
-        </div>
-        <div id="welcomeTextOnlineText">
-          <div></div>
-          <p>Disponível para contato</p>
         </div>
         <div id="welcomeTextLinks">
           <Link href="https://github.com/muriloklein" target="_blank">

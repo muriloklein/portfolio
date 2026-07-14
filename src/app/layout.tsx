@@ -7,8 +7,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portifólio",
-  description: "Portifólio de Murilo Klein",
+  title: "Portfólio",
+  description: "Portfólio de Murilo Klein",
   icons: {
     icon: "/favicon.ico",
   },
