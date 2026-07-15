@@ -5,6 +5,7 @@ import Head from "next/head";
 import SectionWelcome from "@/components/SectionWelcome";
 import SectionAbout from "@/components/SectionAbout";
 import SectionSkills from "@/components/SectionSkills";
+import SectionExperience from "@/components/SectionExperience";
 import SectionProjects from "@/components/SectionProjects";
 import SectionContact from "@/components/SectionContact";
 import Footer from "@/components/Footer";
@@ -25,6 +26,7 @@ export default function Home() {
         <SectionWelcome />
         <SectionAbout />
         <SectionSkills />
+        <SectionExperience />
         <SectionProjects />
         <SectionContact />
         <Footer />

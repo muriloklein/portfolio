@@ -71,8 +71,11 @@ const Header = () => {
           <Link href="#skillsSection" className="menuLinks">
             Habilidades
           </Link>
-          <Link href="#projectsSection" className="menuLinks">
+          <Link href="#experienceSection" className="menuLinks">
             Experiência
+          </Link>
+          <Link href="#projectsSection" className="menuLinks">
+            Projetos
           </Link>
           <Link href="#contactSection" className="menuLinks">
             Contato
@@ -107,6 +110,9 @@ const Header = () => {
         </Link>
         <Link href="#skillsSection" className="menuLinks ">
           Habilidades
+        </Link>
+        <Link href="#experienceSection" className="menuLinks ">
+          Experiência
         </Link>
         <Link href="#projectsSection" className="menuLinks ">
           Projetos
